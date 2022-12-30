@@ -1,1 +1,10 @@
-.main-site-container {text-align: center;}
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.main-site-container {
+    text-align: center; 
+    font-family: 'MedievalSharp', cursive;
+}
+
+div.main-site-container h1 {
+    color: darkmagenta;
+}
