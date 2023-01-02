@@ -13,7 +13,8 @@ body {
     text-align: center;
 
     /*Background*/
-    background: left/256px 298px url('Royal_Arms_Of_England.png') no-repeat;
+    background: top left/256px 298px url('Royal_Arms_Of_England.png') no-repeat scroll;
+    margin: 5%;
 
 }
 
