@@ -1,10 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
-.main-site-container {
-    text-align: center; 
-    font-family: 'MedievalSharp', cursive;
+body {
+    background-color: blanchedalmond;
+
 }
 
-div.main-site-container h1 {
+.main-site-container {
+    /*Font*/    
+    color: darkred;
+    font-family: 'MedievalSharp', cursive;
+    font-size: larger;
+    text-align: center;
+
+    /*Background*/
+    background: left/256px 298px url('Royal_Arms_Of_England.png') no-repeat;
+
+}
+
+div.main-site-container h1, h2, h3, h4, h5, h6, th {
     color: darkmagenta;
+}
+
+div.main-site-container table {
+    border: 3px solid;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+div.main-site-container th, td {
+    border: 1px solid;
+    padding: 5px;
+    padding-right: 10px;
 }
