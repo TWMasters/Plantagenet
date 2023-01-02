@@ -34,3 +34,11 @@ div.main-site-container th, td {
     padding: 5px;
     padding-right: 10px;
 }
+
+div.main-site-container tr.row-divider th {
+    border-bottom: 3px solid darkred;
+}
+
+div.main-site-container tr.row-divider td {
+    border-bottom: 3px solid;
+}
